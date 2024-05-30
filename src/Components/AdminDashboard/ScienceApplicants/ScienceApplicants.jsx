@@ -131,7 +131,10 @@ const ScienceApplicants = () => {
                 </th>
 
                 <td className="p-1 md:p-4">
-                  <Link to={`downloadAdmitCard/${info?.auth_uid}`}>
+                  <Link
+                    to={`downloadAdmitCard/${info?.auth_uid}`}
+                    target="_blank"
+                  >
                     <button
                       // onClick={() => handleDelete(image?.image_id)}
                       type="button"

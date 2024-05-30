@@ -67,63 +67,45 @@ const AdmitCard = () => {
 
   let exam_date = "";
   let exam_time = "";
-  if (applicant_group === "Sci" && user_id >= 1 && user_id <= 1250) {
-    exam_date = "17th August 2023";
-    exam_time = "8:00 AM - 9:30 AM";
-  } else if (applicant_group === "Sci" && user_id >= 1251 && user_id <= 2050) {
-    exam_date = "17th August, 2023";
-    exam_time = "10:00 AM - 11:30 AM";
-  } else if (applicant_group === "Sci" && user_id >= 2051 && user_id <= 3300) {
-    exam_date = "17th August, 2023";
-    exam_time = "12:00 PM - 1:30 PM";
-  } else if (applicant_group === "Sci" && user_id >= 3301 && user_id <= 4100) {
-    exam_date = "17th August, 2023";
-    exam_time = "2:30 PM - 4:00 PM";
-  } else if (applicant_group === "Sci" && user_id >= 4101 && user_id <= 5350) {
-    exam_date = "17th August, 2023";
-    exam_time = "4:30 PM - 6:00 PM";
-  } else if (
-    applicant_group === "SciEV" &&
-    user_id >= 10001 &&
-    user_id <= 11250
-  ) {
-    exam_date = "18th August, 2023";
-    exam_time = "8:00 AM - 9:30 AM";
-  } else if (
-    applicant_group === "Hum" &&
-    user_id >= 14001 &&
-    user_id <= 14800
-  ) {
-    exam_date = "18th August, 2023";
-    exam_time = "8:00 AM - 9:30 AM";
-  } else if (
-    applicant_group === "Bus" &&
-    user_id >= 12001 &&
-    user_id <= 13250
-  ) {
-    exam_date = "18th August, 2023";
-    exam_time = "10:00 AM - 11:30 AM";
-  } else if (applicant_group === "GC" && user_id >= 15001 && user_id <= 15550) {
-    exam_date = "18th August, 2023";
-    exam_time = "12:00 PM - 1:30 PM";
-  } else if (applicant_group === "GC" && user_id >= 16001 && user_id <= 16400) {
-    exam_date = "18th August, 2023";
-    exam_time = "12:00 PM - 1:30 PM";
-  } else if (applicant_group === "GC" && user_id >= 17001 && user_id <= 17300) {
-    exam_date = "18th August, 2023";
-    exam_time = "12:00 PM - 1:30 PM";
-  } else if (applicant_group === "Sci" && user_id >= 5351 && user_id <= 6600) {
-    exam_date = "18th August, 2023";
-    exam_time = "2:30 PM - 4:00 PM";
-  } else if (applicant_group === "Sci" && user_id >= 6601 && user_id <= 7400) {
-    exam_date = "18th August, 2023";
-    exam_time = "4:30 PM - 6:00 PM";
-  } else if (applicant_group === "Sci" && user_id >= 7401 && user_id <= 8650) {
-    exam_date = "19th August, 2023";
-    exam_time = "8:00 AM - 9:30 AM";
-  } else if (applicant_group === "Sci" && user_id >= 8651 && user_id <= 9450) {
-    exam_date = "19th August, 2023";
-    exam_time = "10:00 AM - 11:30 AM";
+  if (applicant_group === "Sci" && user_id >= 1 && user_id <= 1200) {
+    exam_date = "1st June 2024";
+    exam_time = "8:00 AM - 9:00 AM";
+  } else if (applicant_group === "Sci" && user_id >= 1201 && user_id <= 2400) {
+    exam_date = "1st June 2024";
+    exam_time = "10:00 AM - 11:00 AM";
+  } else if (applicant_group === "Sci" && user_id >= 2401 && user_id <= 3600) {
+    exam_date = "1st June 2024";
+    exam_time = "12:00 PM - 1:00 PM";
+  } else if (applicant_group === "Sci" && user_id >= 3601 && user_id <= 4800) {
+    exam_date = "1st June 2024";
+    exam_time = "2:30 PM - 3:30 PM";
+  } else if (applicant_group === "Sci" && user_id >= 4801 && user_id <= 6000) {
+    exam_date = "1st June 2024";
+    exam_time = "4:30 PM - 5:30 PM";
+  } else if (applicant_group === "SciEV" && user_id >= 1 && user_id <= 1200) {
+    exam_date = "31st May, 2024";
+    exam_time = "10:30 AM - 11:30 AM";
+  } else if (applicant_group === "Hum" && user_id >= 1 && user_id <= 500) {
+    exam_date = "31st May, 2024";
+    exam_time = "8:30 AM - 9:30 AM";
+  } else if (applicant_group === "Bus" && user_id >= 1 && user_id <= 600) {
+    exam_date = "31st May, 2024";
+    exam_time = "8:30 AM - 9:30 AM";
+  } else if (applicant_group === "GC" && user_id >= 12001 && user_id <= 12550) {
+    exam_date = "31st May, 2024";
+    exam_time = "8:30 AM - 9:30 AM";
+  } else if (applicant_group === "GC" && user_id >= 13001 && user_id <= 13400) {
+    exam_date = "31st May, 2024";
+    exam_time = "8:30 AM - 9:30 AM";
+  } else if (applicant_group === "GC" && user_id >= 14001 && user_id <= 14300) {
+    exam_date = "31st May, 2024";
+    exam_time = "8:30 AM - 9:30 AM";
+  } else if (applicant_group === "Sci" && user_id >= 6001 && user_id <= 7200) {
+    exam_date = "31st May, 2024";
+    exam_time = "2:00 PM - 3:00 PM";
+  } else if (applicant_group === "Sci" && user_id >= 7201 && user_id <= 8400) {
+    exam_date = "31st May, 2024";
+    exam_time = "4:00 PM - 5:00 PM";
   }
   // console.log(exam_time, exam_date);
   // PDF Generation Code
@@ -245,7 +227,7 @@ const AdmitCard = () => {
                   <img
                     src={`http://localhost:8800/${photo_path}`}
                     alt={full_name}
-                    className="h-48 w-48 mx-auto rounded-full border border-black mr-3"
+                    className="h-52 w-52 mx-auto rounded-3xl border border-black mr-3"
                   />
                   <div className="py-2 px-2 w-[470px] border border-black mx-auto">
                     <h1 className="text-xl">
